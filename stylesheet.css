@@ -1,0 +1,136 @@
+h1 {
+	text-align: center;
+	color: #E8C078;
+	font-family: Arial;
+	font-size: 50px;
+} 
+body{
+	background: url("images/background.jpg");
+	color: #E8C078;
+	cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1074.cur), auto !important; 
+}
+h4 { 
+	text-align: center;
+	color: #E8C078;
+	font-family: Arial;
+	font-size: 30px;
+}
+h5{
+	text-align: center;
+	color: #E8C078;
+	font-family: Arial;
+	font-size: 20px
+}
+.grid {
+  display:grid;
+  border: 7px #E8C078 solid;
+  height: cover ;
+  width: cover;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+  grid-template-rows: 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}
+
+.box {
+  background-color: opacity;
+  color:  #E8C078;
+  border-radius: 5px;
+  border: 2px #E8C078 solid;
+}
+
+.a{
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  
+}
+.b{
+	grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+.c{
+	grid-column-start: 4;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+.d{
+	grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+.e{
+  grid-column-start: 4;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span: 1;
+  font-size: 30px;
+}
+
+.f{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 3;
+	grid-row-end:span 1;
+	font-size:35px;
+}
+.g{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 4;
+	grid-row-end:span 1;
+}
+	
+/* unvisited link */
+a:link {
+    color: #E8C078;
+}
+
+/* visited link */
+a:visited {
+    color: #E8C078;
+}
+
+/* mouse over link */
+a:hover {
+    color: #71EBC9;
+}
+
+/* selected link */
+a:active {
+    color: #E8C078;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
